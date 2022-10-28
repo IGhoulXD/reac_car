@@ -1,0 +1,41 @@
+.estiloDivCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.estiloImgCard {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.b {
+  border: 0.5vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+.bubble {
+  width: 40%;
+  height: 25%;
+  left: 73%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3vmin;
+  background: #ffd;
+  box-shadow: 0 -0.25vmin, 0 0.125vmin;
+  font-family: 'Comic Sans', 'Comic Neue', sans-serif;
+}
